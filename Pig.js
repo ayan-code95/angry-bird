@@ -15,6 +15,7 @@ if((this.body.speed)<2.5)
   if(this.remove === false)
   World.remove(world,this.body)
   score=score+50
+  World.remove=true
 
 }}
 };
